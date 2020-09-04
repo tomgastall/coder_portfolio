@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
   box-sizing: border-box;
@@ -9,7 +10,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: set-text-color($primary-color);
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
